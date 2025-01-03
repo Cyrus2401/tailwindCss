@@ -554,33 +554,20 @@ video {
   display: none;
 }
 
-.p-3 {
-  padding: 0.75rem;
+.border-2 {
+  border-width: 2px;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.border-primary-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 95 255 / var(--tw-border-opacity, 1));
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.p-2 {
+  padding: 0.5rem;
 }
 
-.text-blue-900 {
+.text-primary-200 {
   --tw-text-opacity: 1;
-  color: rgb(30 58 138 / var(--tw-text-opacity, 1));
-}
-
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity, 1));
-}
-
-.underline {
-  text-decoration-line: underline;
-}
-
-.hover\:font-serif:hover {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  color: rgb(170 11 11 / var(--tw-text-opacity, 1));
 }
